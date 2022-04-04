@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <div style="display: flex; justify-content: center;">
+        <form action="" style="max-width: 650px;">
+            <h1 style="">Formulário</h1>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <div>
+                    <label for="">Nome:</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label for="">Data de nascimento:</label>
+                    <input type="date">
+                </div>
+
+                <div>
+                    <label for="">Endereço:</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label for="">Bairro:</label>
+                    <input type="text">
+                    <label for="">Cidade:</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label for="">CEP:</label>
+                    <input type="text">
+                    <label for="">Estado:</label>
+                    <select name="" id="">
+                        <option selected disabled value="">Estados</option>
+                        <option value="">Ceará</option>
+                        <option value="">Recife</option>
+                        <option value="">Rio Grande do Sul</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados profissionais</legend>
+                <div>
+                    <label for="">Natureza do Cargo</label><br>
+                    <label for="">
+                        <input type="radio" name="cargo" value="gerencia" checked>Gerência
+                    </label>
+                    <label for="">
+                        <input type="radio" name="cargo" value="financeiro">Financeiro
+                    </label>
+                    <label for="">
+                        <input type="radio" name="cargo" value="recepcao">Recepção
+                    </label>
+                    <label for="">
+                        <input type="radio" name="cargo" value="administrativo">Administrativo
+                    </label>
+                    <label for="">
+                        <input type="radio" name="cargo" value="juridico">Jurídico
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="">Áreas de interesse</label><br>
+                    <label for="">
+                        <input type="checkbox" name="interesse" value="computacao">Computação
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="interesse" value="qumica">Química
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="interesse" value="ambiente">Meio Ambiente
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="interesse" value="engenharia">Engenharia
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="interesse" value="matematica">Matemática
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="">Mini-currículo</label><br>
+                    <textarea name="" id="" cols="80" rows="10" wrap="hard" placeholder="Deixe seu currículo aqui"
+                        style="resize: none;"></textarea>
+                </div>
+
+
+            </fieldset>
+
+            <div>
+                <input type="submit" name="enviar" value="Enviar">
+                <input type="reset" name="limpar" value="Limpar">
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
